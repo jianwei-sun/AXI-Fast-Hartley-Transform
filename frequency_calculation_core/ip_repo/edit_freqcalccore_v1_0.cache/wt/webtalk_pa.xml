@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Feb 22 01:27:57 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="5f6ce57225dd47d2a27c4480b9242bfb" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="IPPackagerHandler" value="1" type="JavaHandler"/>
+<property name="IPPackagerWizardHandler" value="1" type="JavaHandler"/>
+<property name="NewIPLocationHandler" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="BACK,  Back" value="1" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="2" type="GuiResourceData"/>
+<property name="IP, IP" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="8" type="GuiResourceData"/>
+<property name="OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, Create and Package IP..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_PROJECT_SETTINGS, Project Settings..." value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, IP-XACT], 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, freqcalccore_v1_0_S00_AXI.v], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, freqcalccore_v1_0_S00_AXI.v], 2, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files], 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, freqcalccore_v1_0 (freqcalccore_v1_0.v" value="6" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_MANAGE_IP, Manage IP" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_START_USING_VIVADO_WITH_IP_CATALOG, New IP Location..." value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_REPORT, Report" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_TOOLS, Tools" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.NewIPProjectWizard_IP_LOCATION, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 BFM simulation and debug demonstration design." value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NewIpWizard_DATA_WIDTH, 32, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NewIpWizard_DESCRIPTION_MY_NEW_AXI_IP, Dominant frequency detection based on the Fast Hartley Transform" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NewIpWizard_EDIT_IP, Edit IP" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NewIpWizard_INTERFACE_TYPE, Lite, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NewIpWizard_NAME_MYIP, freqcalccore" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NewIpWizard_NUMBER_OF_REGISTERS, 4" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_PACKAGER, Packager, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, Repository Manager, 1" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, Customize Commands" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 100, 162" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 107, 332" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 108, 458" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 109, 302" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 110, 498" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 110, 586" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 112, 300" value="2" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 117, 363" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 121, 614" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 126, 304" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 126, 378" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 126, 378, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 129, 141" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 130, 141, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 130, 451" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 130, 451, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 133, 400" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 134, 440" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 136, 314" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 138, 485" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 139, 486" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 142, 467" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 144, 88" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 145, 278" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 145, 349" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 145, 349, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 145, 476" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 150, 191" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 150, 191, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 152, 322" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 154, 161" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 160, 361" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 160, 73" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 163, 362" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 165, 265" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 165, 453" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 167, 369" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 171, 344" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 172, 420" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 173, 292" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 174, 464" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 175, 405" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 175, 591" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 176, 352" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 177, 428" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 178, 382" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 178, 587" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 180, 261" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 181, 108" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 182, 148" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 183, 198" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 183, 366" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 186, 349" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 189, 330" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 190, 438" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 194, 551" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 194, 557" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 195, 453" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 2, 452" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 201, 382" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 206, 350" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 206, 374" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 209, 483" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 210, 555" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 211, 277" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 211, 349" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 213, 110" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 213, 110, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 213, 391" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 214, 191" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 215, 367" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 216, 597" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 217, 160" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 217, 212" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 217, 463" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 218, 198" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 218, 446" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 223, 244" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 224, 399" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 227, 519" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 230, 381" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 234, 590" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 235, 436" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 238, 449" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 239, 416" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 241, 298" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 242, 385" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 245, 331" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 246, 393" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 247, 358" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 250, 337" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 250, 538" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 252, 449" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 253, 432" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 254, 241" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 256, 587" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 258, 345" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 258, 352" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 258, 394" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 259, 348" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 259, 400" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 261, 177" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 263, 297" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 268, 289" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 271, 108" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 271, 369" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 271, 571" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 279, 486" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 280, 283" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 281, 465" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 283, 383" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 287, 414" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 289, 486" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 290, 112" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 290, 112, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 293, 247" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 294, 295" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 295, 693" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 295, 693, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 298, 213" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 299, 408" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 301, 381" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 301, 449" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 302, 315" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 303, 421" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 303, 486" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 303, 516" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 303, 516, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 306, 315" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 309, 385" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 310, 689" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 311, 468" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 313, 590" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 33, 461" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 330, 302" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 332, 306" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 337, 178" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 338, 318" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 339, 395" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 341, 156" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 347, 116" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 350, 246" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 352, 146" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 353, 389" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 355, 395" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 363, 126" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 364, 444" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 365, 598" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 373, 422" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 374, 313" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 376, 249" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 376, 509" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 377, 183" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 377, 54" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 379, 197" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 380, 259" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 381, 48" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 384, 277" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 395, 334" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 397, 427" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 398, 241" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 40, 162" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 403, 399" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 403, 408" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 405, 153" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 405, 414" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 414, 163" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 416, 315" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 416, 315, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 420, 357" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 423, 175" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 426, 339" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 427, 223" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 438, 376" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 442, 411" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 445, 178" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 45, 424" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 450, 575" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 460, 295" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 463, 354" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 464, 194" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 469, 204" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 489, 610" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 50, 519" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 504, 498" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 504, 568" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 506, 222" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 512, 471" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 54, 470" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 546, 609" value="2" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 55, 295" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 56, 417" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 56, 468" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 57, 414" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 57, 537" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 575, 602" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 59, 534" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 62, 545" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 62, 615" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 65, 493" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 69, 484" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 70, 419" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 74, 478" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 77, 251" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 82, 282" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 83, 518" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 84, 229" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 91, 525" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 92, 77" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 92, 77, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 93, 482" value="1" type="GuiResourceData"/>
+<property name="freqcalccore_v1_0_S00_AXI.v, 96, 349" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="17" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="16" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
